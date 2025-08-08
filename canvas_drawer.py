@@ -19,7 +19,7 @@ def save_circle_data(circle_groups, window_size):
         ]
         save_data.append({"group": index + 1, "dots": grid_coordinates, "depth": depth})
 
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    timestamp = datetime.now().strftime("%m%d_%H%M%S")
     filename = f'dot_data_{timestamp}.json'
 
     with open(filename, 'w') as json_file:
