@@ -10,7 +10,7 @@ BACKGROUND_IMAGE_FILE = "grass.jpg"
 MOWER_COLOR = (255, 0, 0)  # Red mower
 CIRCLE_DIAMETER = int(0.35 * (WINDOW_SIZE // 10))
 CIRCLE_RADIUS = CIRCLE_DIAMETER // 2
-DOT_DATA = "dot_data_0808_154100.json"
+DOT_DATA = "dot_data_0808_155538.json"
 
 def load_path(filename):
     try:
